@@ -31,7 +31,7 @@
  * @return {RegExp}
  */
 function getRegexForGuid() {
-   return /\{\d[\w | \d]{7}-([\w | \d]{4}-){3}[\w | \d]{12}\}/g;
+   return /\{\d[\w | \d]{8}-([\w | \d]{4}-){3}[\w | \d]{12}\}/g;
 }
 
 
@@ -53,7 +53,7 @@ function getRegexForGuid() {
  *
  */
 function getRegexForPitSpot() {
-   return / /g;
+   return /p.t/;
 }
 
 
